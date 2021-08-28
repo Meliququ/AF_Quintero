@@ -8,7 +8,7 @@ namespace AF_Quintero.Functions.Entities
     public class AFEntity : TableEntity
     {
         //Field declaration of the  local table
-        public int employedId { get; set; }
+        public string employedId { get; set; }
         public DateTime createdtime { get; set; }
         public byte Type { get; set; }
         public bool Isconsolidated { get; set; }
